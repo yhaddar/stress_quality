@@ -1,0 +1,1 @@
+for run the server : docker build -t stress-api .
