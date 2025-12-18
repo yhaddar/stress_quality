@@ -1,0 +1,1 @@
+for active the server : uvicorn main:app --reload
