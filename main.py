@@ -36,4 +36,4 @@ def predict_stress(data: StressInput):
     
     prediction_label = le.inverse_transform(prediction.astype(int))[0]
     
-    return {"prediction": prediction_label}
+    return {"message": prediction_label}
